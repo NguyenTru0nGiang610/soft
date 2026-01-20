@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vựa Phim</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="nav-logo">Vựa Phim</div>
+    
+        <div class="search-box">
+            <input type="text" id="movie-search" placeholder="Tìm tên phim">
+        </div>
+
+        <div class="nav-links">
+            <button id="theme-toggle" class="btn-icon">☀️</button>
+            <a href="#" id="login-btn">Login</a>
+        </div>
+    </div>
+
+    <div class="hero-section">
+        <div class="hero-content">
+            <h1 class="hero-title">STRANGER THINGS</h1>
+            <p class="hero-desc">
+                Khi một cậu bé mất tích, thị trấn nhỏ khám phá ra một bí ẩn liên quan đến các thí nghiệm bí mật, lực lượng siêu nhiên đáng sợ và một cô bé kỳ lạ.
+            </p>
+            <div class="hero-buttons">
+                <button class="btn btn-play">▶ Phát</button>
+                <button class="btn btn-info">ℹ Thông tin khác</button>
+            </div>
+        </div>
+        <div class="hero-gradient"></div>
+    </div>
+
+    <div class="movie-row">
+        <h2>HOT</h2>
+        <div class="row-posters">
+            <img src="https://image.tmdb.org/t/p/w300/pIkRyD18kl4FhoCNQuWxWu5cBLM.jpg" alt="Movie 1" class="poster">
+            <img src="https://ih1.redbubble.net/image.5874635354.9427/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.webp" alt="Movie 2" class="poster">
+            <img src="https://image.tmdb.org/t/p/w300/6zbKgwgaaCyyBXE4Sun4oWQfQmi.jpg" alt="Movie 3" class="poster">
+            <img src="https://image.tmdb.org/t/p/w300/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg" alt="Movie 4" class="poster">
+            <img src="https://m.media-amazon.com/images/M/MV5BNGEwYjgwOGQtYjg5ZS00Njc1LTk2ZGEtM2QwZWQ2NjdhZTE5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Movie 5" class="poster">
+            <img src="https://image.tmdb.org/t/p/w300/tlcuhdNMKNGEVpGqBZrAaOOf1A6.jpg" alt="Movie 6" class="poster">
+            <img src="https://image.tmdb.org/t/p/original/pC8q3zOAD5ZMWVIt7CkLDuL2pYt.jpg" alt="Movie 7" class="poster">
+            <img src="https://image.tmdb.org/t/p/w300/8Y43POKjjKDGI9MH89NW0NAzzp8.jpg" alt="Movie 8" class="poster">
+            <img src="https://image.tmdb.org/t/p/w300/2CAL2433ZeIihfX1Hb2139CX0pW.jpg" alt="Movie 9" class="poster">
+        </div>
+    </div>
+
+    <div style="height: 100px;"></div>
+
+    <div id="login-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Đăng Nhập</h2>
+            <form>
+                <input type="email" placeholder="Email hoặc số điện thoại">
+                <input type="password" placeholder="Mật khẩu">
+                <button type="submit" class="btn btn-play" style="width: 100%; margin-top: 10px;">Đăng nhập</button>
+                <div style="margin-top: 15px; font-size: 0.9rem;">
+                    <p>Chưa có tài khoản? <a href="#" style="color: red;">Đăng ký ngay</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
