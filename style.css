@@ -12,6 +12,7 @@
     --btn-bg: #000;       
     --btn-text: #fff;     
     --login-text: #000;   
+    --h2-color: #fff;
 }
 
 .light-mode {
@@ -22,6 +23,7 @@
     --btn-bg: #fff;       
     --btn-text: #000;     
     --login-text: #fff;   
+    --h2-color: #000;
 }
 
 body {
@@ -132,6 +134,7 @@ body {
 
 .movie-row h2 {
     margin-bottom: 10px;
+    color: red
 }
 
 .row-posters {
@@ -206,6 +209,19 @@ body {
     transform: translate(-50%, -50%);
     margin: 0;
     box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}
+.modal-content h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: var(--h2-color);
+}
+
+.modal-content p {
+    color: var(--h2-color)
+}
+
+.close-btn {
+    color: var(--h2-color);
 }
 
 .modal-content input {
